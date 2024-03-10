@@ -20,14 +20,14 @@ PMBR Stagelist [ilikepizza107]
 TABLE_1:
 	byte[10] |
 0x1F,	| # Temple
-0x2C,	| # Draculas_Castle
+0x10,   | # Spear Pillar
 0x21,	| # Golden_Temple
 0x0F,	| # Saffron_City
 0x06,	| # Kongo_Jungle
 0x1E,	| # Sky_Sanctuary
 0x26,	| # Big_Blue
 0x22,	| # Onett
-0x34,	| # Bell_Tower
+0x19,   | # Fourside
 0x0D	| # Halberd
 
 TABLE_2:
@@ -36,15 +36,14 @@ TABLE_2:
 0x0B,	| # Frigate_Husk
 0x24,	| # Peach_Castle
 0x08,	| # Temple_of_Time
-0x3A,	| # Subspace
-0x37,	| # Venus_Lighthouse
-0x3C,	| # Poke_Floats
+0x07,   | # Rumble Falls
+0x09,   | # Hyrule Castle
+0x27,   | # Planet Zebes
 0x03,	| # Luigis_Mansion
 0x2B,	| # Training
 0x2B,	| # Training
 0x2B,	| # Training
 0x2B	| # Training
-
 
 TABLE_3:
 	byte[10] |
