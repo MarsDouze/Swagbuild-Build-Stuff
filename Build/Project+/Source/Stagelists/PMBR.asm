@@ -31,60 +31,33 @@ TABLE_1:
 0x02  | # Delfino's Secret
 
 TABLE_2:
-	byte[27] |
-0x20, | # Yoshi's Story
-0x05, | # Bowser's Castle
-0x14, | # Castle Siege
-0x1E, | # Sky Sanctuary Zone
-0x21, | # Golden Temple
-0x0A, | # Metroid Lab
-0x16, | # Distant Planet
-0x0C, | # Yoshi's Island
-0x0B, | # Frigate Orpheon
-0x08, | # Temple of Time
-0x03, | # Luigi's Mansion
-0x24, | # Peach's Castle
-0x06, | # Kongo Jungle
-0x07, | # Rumble Falls
-0x09, | # Hyrule Castle
-0x1F, | # Temple
-0x0D, | # Halberd
-0x27, | # Planet Zebes
-0x0F, | # Saffron City
-0x10, | # Spear Pillar
-0x25, | # Corneria
-0x0E, | # Lylat Cruise
-0x22, | # Onett
-0x19, | # Fourside
-0x12, | # Infinite Glacier
-0x26, | # Big Blue
-0x2B  | # Training Room
+	byte[12] |
+0x0C,	| # Yoshis_Island
+0x0B,	| # Frigate_Husk
+0x24,	| # Peach_Castle
+0x08,	| # Temple_of_Time
+0x3A,	| # Subspace
+0x37,	| # Venus_Lighthouse
+0x3C,	| # Poke_Floats
+0x03,	| # Luigis_Mansion
+0x2B,	| # Training
+0x2B,	| # Training
+0x2B,	| # Training
+0x2B	| # Training
+
 
 TABLE_3:
-	byte[23] |
-0x11, | # Port Town Aero Dive
-0x13, | # Flat Zone 2
-0x17, | # Skyworld
-0x1B, | # Shadow Moses Island
-0x1D, | # PictoChat
-0x31, | # Dinosaur Land
-0x2D, | # Mario Circuit
-0x38, | # Mushroom Kingdom
-0x3B, | # Rainbow Cruise
-0x32, | # Oil Drum Alley
-0x33, | # Jungle Japes
-0x36, | # Cookie Country
-0x2E, | # Clock Town
-0x3D, | # Pirate Ship
-0x39, | # WarioWare, Inc.
-0x3C, | # Poke Floats
-0x34, | # Bell Tower
-0x35, | # Norfair
-0x2F, | # Hanenbow
-0x37, | # Venus Lighthouse
-0x2C, | # Dracula's Castle
-0x30, | # Dead Line
-0x3A  | # Subspace
+	byte[10] |
+0x1F,	| # Temple
+0x2C,	| # Draculas_Castle
+0x21,	| # Golden_Temple
+0x0F,	| # Saffron_City
+0x06,	| # Kongo_Jungle
+0x1E,	| # Sky_Sanctuary
+0x26,	| # Big_Blue
+0x22,	| # Onett
+0x34,	| # Bell_Tower
+0x0D	| # Halberd
 
 TABLE_4:	# Unused
 TABLE_5:	# Unused
@@ -116,8 +89,8 @@ SkipStageTables:
 .RESET
 * 20523400 00000000 # If 80523400 is equal to 0
 byte 10 @ $806B929C # Page 1
-byte 27 @ $806B92A4 # Page 2
-byte 23 @ $80496002 # Page 3
+byte 12 @ $806B92A4 # Page 2
+byte 10 @ $80496002 # Page 3
 byte 00 @ $80496003 # Page 4 (Unused)
 byte 00 @ $80496004 # Page 5 (Unused)
 byte 60 @ $800AF673 # Stage Count
