@@ -124,7 +124,7 @@
 	int 4 @ $80B88F30
 
 23085 - Base Held Time in Grabs [90->76]
-* 04B88F3C 0000004C
+	int 76 @ $80B88F3C
 
 23087 - Frames After Landing Until KO Ownership is Lost [10800->60]
 	int 60 @ $80B88F44
@@ -145,6 +145,8 @@ Dash within Dash Uses Run Sensitivity [0.80->0.62]
 Threshold to begin tracking distance vs time on stick movements [0.25->0.35]
 	float  0.35 @ $80AD7528
 	float -0.35 @ $80AD752C
+D-Pad acceleration threshold for solo Wiimote movement [30->23.999]
+	float 23.999 @ $805A182C
 Item Ground Smash U-Throw Velocity [4.1->4.34]
 	float 4.34 @ $80F9FDBC
 
