@@ -86,11 +86,11 @@ half[62] |	# Stage Count + 2
 
 SkipStageTables:
 .RESET
-* 20523400 00000000 # If 80523400 is equal to 1
+* 20523400 00000001 # If 80523400 is equal to 1
 byte 12 @ $806B929C # Page 1
 byte 10 @ $806B92A4 # Page 2
 byte 10 @ $80496002 # Page 3
 byte 00 @ $80496003 # Page 4 (Unused)
 byte 00 @ $80496004 # Page 5 (Unused)
-byte 60 @ $800AF673 # Stage Count
+byte 32 @ $800AF673 # Stage Count
 * E0000000 80008000
