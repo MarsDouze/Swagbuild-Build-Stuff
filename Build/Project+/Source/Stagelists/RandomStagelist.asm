@@ -22,8 +22,8 @@ Set random stagelist based on Code Menu Stagelist setting (2023 Singles) [ilikep
 * 04523330 00000000
 * 04523340 00000000
 * 42000000 90000000 #Set base address to 90000000
-* 0417BE74 04001909 # Brawl stages
-* 0417BE70 00021000 # Melee stages
+* 0417BE74 00001B88 # Brawl stages
+* 0417BE70 00012000 # Melee stages
 * E0000000 80008000
 
 ####################################################################################
@@ -36,6 +36,6 @@ Set random stagelist based on Code Menu Stagelist setting (ONPM) [ilikepizza107]
 * 04523320 00000000
 * 04523340 00000000
 * 42000000 90000000 #Set base address to 90000000
-* 0417BE74 04000001 # Brawl stages
-* 0417BE70 00020000 # Melee stages
+* 0417BE74 4201A040 # Brawl stages
+* 0417BE70 00008D00 # Melee stages
 * E0000000 80008000
